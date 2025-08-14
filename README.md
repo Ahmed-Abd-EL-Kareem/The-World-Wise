@@ -75,3 +75,27 @@
 - `npm run preview` - Preview production build / معاينة البناء النهائي
 - `npm run lint` - Run ESLint / تشغيل ESLint
 - `npm run server` - Start JSON server for data / بدء خادم JSON للبيانات
+
+---
+
+## Troubleshooting / استكشاف الأخطاء وإصلاحها
+
+### Build Issues / مشاكل البناء
+
+- ✅ **ESLint Version Conflict**: Resolved by updating to ESLint 9 with Flat Config
+- ✅ **Import Path Issues**: Fixed HomePage import path to match actual filename (Homepage.jsx)
+- ✅ **Dependency Conflicts**: Removed incompatible eslint-config-react-app
+
+### Common Solutions / الحلول الشائعة
+
+- Ensure all import paths match exact filenames (case-sensitive)
+- Use `npm run lint` to check for code issues before building
+- Clear `node_modules` and reinstall if dependency issues persist
+
+---
+
+## Deployment Status / حالة النشر
+
+- ✅ **Local Build**: Working correctly
+- ✅ **ESLint**: No errors found
+- ✅ **Vercel Ready**: All build issues resolved
