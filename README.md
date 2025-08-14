@@ -84,13 +84,25 @@
 
 - ✅ **ESLint Version Conflict**: Resolved by updating to ESLint 9 with Flat Config
 - ✅ **Import Path Issues**: Fixed HomePage import path to match actual filename (Homepage.jsx)
+- ✅ **Component Import Paths**: Fixed all component imports from "../components/" to "../Components/" (case-sensitive)
 - ✅ **Dependency Conflicts**: Removed incompatible eslint-config-react-app
 
 ### Common Solutions / الحلول الشائعة
 
 - Ensure all import paths match exact filenames (case-sensitive)
+- Check component folder names: `Components` (capital C) not `components` (lowercase c)
 - Use `npm run lint` to check for code issues before building
 - Clear `node_modules` and reinstall if dependency issues persist
+
+### File Structure / هيكل الملفات
+
+```
+src/
+├── Components/          # Capital C - React components
+├── pages/              # Lowercase p - Page components
+├── contexts/           # Lowercase c - Context providers
+└── hooks/              # Lowercase h - Custom hooks
+```
 
 ---
 
