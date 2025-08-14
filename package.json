@@ -11,7 +11,6 @@
     "server": "json-server --watch data/cities.json --port 3001 -d 500"
   },
   "dependencies": {
-    "eslint-config-react-app": "^7.0.1",
     "json-server": "^0.17.4",
     "leaflet": "^1.9.4",
     "react": "^19.1.0",

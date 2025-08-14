@@ -15,11 +15,13 @@
 
 ### Technologies Used
 
-- **Frontend**: React 18, Vite
+- **Frontend**: React 19, Vite 7
 - **Styling**: CSS Modules
 - **State Management**: React Context API
 - **Build Tool**: Vite
-- **Linting**: ESLint
+- **Linting**: ESLint 9 (Flat Config)
+- **Maps**: Leaflet & React-Leaflet
+- **Routing**: React Router DOM 7
 
 ---
 
@@ -38,11 +40,13 @@
 
 ### التقنيات المستخدمة
 
-- **الواجهة الأمامية**: React 18, Vite
+- **الواجهة الأمامية**: React 19, Vite 7
 - **التصميم**: CSS Modules
 - **إدارة الحالة**: React Context API
 - **أداة البناء**: Vite
-- **فحص الكود**: ESLint
+- **فحص الكود**: ESLint 9 (إعدادات مسطحة)
+- **الخرائط**: Leaflet & React-Leaflet
+- **التنقل**: React Router DOM 7
 
 ---
 
@@ -70,3 +74,4 @@
 - `npm run build` - Build for production / بناء للإنتاج
 - `npm run preview` - Preview production build / معاينة البناء النهائي
 - `npm run lint` - Run ESLint / تشغيل ESLint
+- `npm run server` - Start JSON server for data / بدء خادم JSON للبيانات
